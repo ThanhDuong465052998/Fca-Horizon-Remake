@@ -34,6 +34,7 @@ function has(name) {
   return runtimes.has(name);
 }
 
+
 function release(fn) {
   assert(isFunction(fn), 'Only functions can be captured');
 
